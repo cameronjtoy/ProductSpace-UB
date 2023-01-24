@@ -1,4 +1,4 @@
-export const Home = () => {
+const Home = () => {
     return(
         <div>
             <div class="text-jost text-gray-700 mx-40 text-center">
@@ -20,3 +20,4 @@ export const Home = () => {
         
     )
 }
+export default Home;

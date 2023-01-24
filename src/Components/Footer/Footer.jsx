@@ -1,6 +1,6 @@
 import logo from '../../Assets/logo2.png';
 
-export const Footer = () => {
+const Footer = () => {
     return(  
         <footer class="p-4 bg-white sm:p-6 text-jost">
             <div class="mx-20 bg-white md:flex md:justify-between">
@@ -75,3 +75,5 @@ export const Footer = () => {
 
     )
 }
+
+export default Footer;

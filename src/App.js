@@ -1,18 +1,27 @@
 import './App.css';
-import { Header } from "./Components/Header/Header.jsx"
-import { Navbar } from "./Components/Navbar/Navbar.jsx"
-import { Home } from "./Components/Home/Home.jsx"
-import { Footer } from './Components/Footer/Footer.jsx';
+import  Layout  from "./Components/Layout/Layout"
+import  Home  from "./Components/Home/Home"
+import { Routes, Route } from 'react-router-dom';
+import About  from "./Components/About/About"
+import Students from "./Components/Students/Students"
+import Footer from "./Components/Footer/Footer"
+
 
 function App() {
+  
   return (
-    <div className="App">
-      <Navbar/>
-      <Home/>
-      <Header/>
-      <Footer/>
-    </div>
-    
+    <>
+    <Layout />
+        <Routes>
+
+            <Route path='/' index element={<Home />} />
+            <Route path='/about' element={<About />} />
+            <Route path='/students' element={<Students />} />
+
+        </Routes>
+      <Footer />
+
+    </>
   );
 }
 
