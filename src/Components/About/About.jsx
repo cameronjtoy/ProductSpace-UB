@@ -9,6 +9,7 @@ const card = [
 const About = () => {
     return (
         <div>
+<<<<<<< HEAD
             <div class="about">
                 <div class="container top-padding">
                     <div class="row align-items-center">
@@ -49,6 +50,9 @@ const About = () => {
             </div>
         </div>
 
+=======
+        </div>
+>>>>>>> origin/main
     );
 
 }

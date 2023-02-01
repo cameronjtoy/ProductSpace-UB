@@ -9,8 +9,6 @@ const Layout = () => {
             <Navbar />
 
             <div className='page'>
-
-
             </div>
         </div>
     )
