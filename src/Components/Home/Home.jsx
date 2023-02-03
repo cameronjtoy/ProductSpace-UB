@@ -1,5 +1,3 @@
-import milc from '../../Assets/milc.png';
-
 const Home = () => {
     return(
         <div>
@@ -14,9 +12,14 @@ const Home = () => {
                     
                 </div>
             <div class="mx-40">
-                <div class="text-jost mx-40 text-center">
-                    <h3 class="text-3xl py-3 text-gray-800" >What is Product Space?</h3>
-                    <span class="text-2xl text-gray-700">New products are the lifeblood of any company and the cornerstone of any economy. Yet, the most prestigious higher education institutions lack meaningful communities dedicated to the intersection of business and technology. Product Space solves this problem. We teach students from all backgrounds how to create and analyze Products and offer a Space for students to apply their skills in Product Management, Product Marketing, and Product Design. Through these activities, our mission is to cultivate tomorrow's product leaders. </span>
+
+                <div class="text-jost text-center flex flex-row">
+                    <div class="basis-1/3"></div>
+                    <div class="basis-1/3">
+                        <h3 class="text-3xl py-3 text-gray-800" >What is Product Space?</h3>
+                        <span class="text-2xl text-gray-700">New products are the lifeblood of any company and the cornerstone of any economy. Yet, the most prestigious higher education institutions lack meaningful communities dedicated to the intersection of business and technology. Product Space solves this problem. We teach students from all backgrounds how to create and analyze Products and offer a Space for students to apply their skills in Product Management, Product Marketing, and Product Design. Through these activities, our mission is to cultivate tomorrow's product leaders. </span>
+                    </div>
+                    
                 </div>
                 
                 <div class="text-jost mx-20 my-20 flex flex-row">
